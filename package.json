@@ -1,0 +1,15 @@
+{
+  "name": "canvas-particle-effect",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "typings": "src/types.d.ts",
+  "scripts": {
+    "build": "bun build --outdir dist src/index.ts"
+  }
+}
